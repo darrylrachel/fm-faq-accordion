@@ -32,14 +32,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .content-wrapper {
   background-color: #fff;
   border-radius: 8px;
   padding: 18px;
-  margin: 0 auto;
+  margin: 90px auto;
   width: 90%;
   z-index: 1;
 }
@@ -52,6 +52,23 @@ body {
 
 .icon-star {
   margin-right: 10px;
+}
+
+.content__card-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 40px 0 0;
+}
+
+.content__card-head p {
+  font-weight: var(--fw-600);
+  color: var(--purple-950);
+}
+
+.content__card-body p {
+  font-weight: var(--fw-400);
+  color: var(--purple-600);
 }
 
 /* Desktop: 1440px */
